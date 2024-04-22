@@ -22,10 +22,6 @@ body {
 	margin: 0 auto;
 }
 
-a {
-	text-decoration: none;
-}
-
 /* Header */
 .header {
 	min-height: 100vh;
@@ -34,7 +30,7 @@ a {
 
 .logo {
 	position: relative;
-	display: inline-flex;
+	display: flex;
 	font-size: 1rem;
 }
 
@@ -63,7 +59,7 @@ a {
 .logo__text {
 	margin-left: 0.6em;
 	text-align: right;
-	line-height: 1.6em;
+	/* line-height: 1.4em; */
 }
 
 .logo__brand {
