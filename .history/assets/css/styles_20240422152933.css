@@ -33,7 +33,6 @@ a {
 	height: var(--height);
 	padding: 0 20px;
 	border-radius: 99px;
-	border: 1px solid #2e80ce;
 	font-size: 1.6rem;
 	font-weight: 400;
 	text-align: center;
@@ -43,7 +42,7 @@ a {
 }
 
 .btn:hover {
-	opacity: 0.9;
+	opacity: 0.1;
 	cursor: pointer;
 }
 

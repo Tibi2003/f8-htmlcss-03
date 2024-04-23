@@ -26,27 +26,6 @@ a {
 	text-decoration: none;
 }
 
-.btn {
-	--height: 60px;
-	display: inline-block;
-	min-width: 205px;
-	height: var(--height);
-	padding: 0 20px;
-	border-radius: 99px;
-	border: 1px solid #2e80ce;
-	font-size: 1.6rem;
-	font-weight: 400;
-	text-align: center;
-	line-height: var(--height);
-	color: #fff;
-	background: #2e80ce;
-}
-
-.btn:hover {
-	opacity: 0.9;
-	cursor: pointer;
-}
-
 /* Header */
 .header {
 	min-height: 100vh;
@@ -112,7 +91,7 @@ a {
 	display: flex;
 }
 
-.action__login,
+.action__btn,
 .navbar__link {
 	padding: 4px 21px;
 	font-size: 1.6rem;
@@ -136,10 +115,4 @@ a {
 	height: 6px;
 	border-radius: 50%;
 	background: #fff;
-}
-
-/* Action */
-.action__signup {
-	--height: 44px;
-	min-width: 104px;
 }
